@@ -859,6 +859,7 @@ rust_library {
         "//apex_available:platform",
         "com.android.virt",
     ],
+    visibility: ["//visibility:public"],
 }
 
 rust_library_host_rlib {
